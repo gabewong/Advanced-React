@@ -6,13 +6,17 @@ class MyApp extends App{
     render() {
          const {Component} = this.props;
 
-         return (
+         return ( 
              <Container>
                  <Page>
-                 <Component/>
+                 <Component/> 
                  </Page>
              </Container>
          );
     }
+
+
+    
 }
 export default MyApp;
+
